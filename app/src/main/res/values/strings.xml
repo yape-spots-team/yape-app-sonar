@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Yape</string>
+    <string name="spots_app_name">YapeSpots</string>
+    <string name="title_activity_maps">Map</string>
+    <!-- Home -->
+    <string name="home_title">Yapero</string>
+    <string name="home_action_map">Ir a ver spots</string>
+    <!--utils -->
+    <string name="home_navigation_drawer_open">Open navigation drawer</string>
+    <string name="home_navigation_drawer_close">Close navigation drawer</string>
+    <!-- content -->
+    <string name="home_no_transactions">No se han efectuado transacciones.</string>
+    <string name="home_show_balance">Mostrar saldo</string>
+
+    <!-- Detail Place -->
+    <string name="detail_place_like_ok">Te gusta este sitio</string>
+    <string name="detail_place_like_denied">No se pudo dar like, vuelve a intentarlo</string>
+    <string name="detail_place_report_ok">Muchas gracias por reportar este sitio</string>
+    <string name="detail_place_report_denied">No se pudo reportar el lugar, vuelve a intentarlo</string>
+
+    <!-- Map -->
+    <string name="map_nearby_places_function_failed">No se pudo cargar los mapas</string>
+
+    <!-- Permissions Util -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <!-- General -->
+    <string name="type_favorite">favorite</string>
+    <string name="type_lodging">lodging</string>
+    <string name="type_bar">bar</string>
+    <string name="type_florist">florist</string>
+    <string name="type_gas_station">gas_station</string>
+    <string name="type_restaurant">restaurant</string>
+    <string name="type_store">store</string>
+    <string name="type_museum">museum</string>
+    <string name="type_hardware_store">hardware_store</string>
+    <string name="type_search_hint">Buscar Aqui</string>
+    <!--Advanced Filters -->
+    <string name="advanced_filter_applybutton">Aplicar</string>
+    <string name="advanced_filter_filtro2">Disponibilidad:</string>
+    <string name="advanced_filter_reset">Reset</string>
+    <string name="advanced_filter_filtro1">Distancia:</string>
+    <string-array name="advanced_filter_Open">
+        <item>Todos</item>
+        <item>Abiertos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="130dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_popup"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:textSize="18sp"
+        android:text="Inicia sesión para continuar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/aceptar_pop"
+        android:layout_below="@id/text_popup"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="1dp"
+        android:text="Aceptar"
+        android:textColor="#13D1B5"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/cancelar_pop"
+        android:layout_below="@id/text_popup"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="1dp"
+        android:text="Cancelar"
+        android:textColor="#13D1B5"
+        android:textSize="18sp" />
+
+</RelativeLayout>

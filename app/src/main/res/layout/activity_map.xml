@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.software.yapespots.ui.map.MapActivity" />
+
+    <ImageView
+        android:id="@+id/ic_gps"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/map"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-150dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_gps"
+        android:translationZ="5dp" />
+
+    <ImageView
+        android:id="@+id/filters"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@id/map"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-70dp"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/filters"
+        android:translationZ="5dp" />
+
+    <ImageView
+        android:id="@+id/favorite"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/map"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-85dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/favorite"
+        android:translationZ="5dp" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_above="@id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="-70dp"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/back"
+        android:translationZ="5dp" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-85dp"
+        android:background="@drawable/circle"
+        android:elevation="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/search"
+        android:translationZ="5dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_above="@+id/map"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="-63dp"
+        android:shadowColor="#DDDDDD"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="1"
+        android:text="@string/spots_app_name"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+</RelativeLayout>
